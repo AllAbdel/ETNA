@@ -1,6 +1,8 @@
 import pygame, random, sys
 
 pygame.init()
+w=800
+h=600
 screen = pygame.display.set_mode((w, h))
 clock = pygame.time.Clock()
 paddle = pygame.Rect(w//2 - 60, h - 30, 120, 15)
